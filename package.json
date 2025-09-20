@@ -1,6 +1,7 @@
 {
   "name": "sample-eleventy-cd-githubpages",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
   }
 }
