@@ -2,7 +2,9 @@
   "name": "sample-eleventy-cd-githubpages",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "start" : "eleventy --serve"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2"
   }
