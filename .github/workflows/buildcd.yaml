@@ -32,3 +32,10 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+  cd:
+    name: Continuous Deployment
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
